@@ -10,6 +10,6 @@ public class MenuManager : MonoBehaviour
 
     public void OnNameEntered(string playerName)
     {
-        GameManager.PlayerName = playerName;
+        GameManager.Instance.PlayerName = playerName;
     }
 }
